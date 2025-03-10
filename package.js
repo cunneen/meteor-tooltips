@@ -7,7 +7,11 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.use(
-    ["ecmascript", "reactive-var", "jquery", "templating", "tracker"],
+    ["ecmascript@0.0.0", 
+      "reactive-var@1.0.0", 
+      "jquery@1.0.0 || 3.0.0", 
+      "templating@1.0.0", 
+      "tracker@1.0.0"],
     "client"
   );
   const distDir = "dist";
