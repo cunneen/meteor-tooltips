@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'lookback:tooltips',
+  name: "cunneen:tooltips",
   summary: "Reactive tooltips, no coffee required.",
   version: "1.0.0",
   git: "https://github.com/cunneen/meteor-tooltips.git",
