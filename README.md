@@ -1,11 +1,15 @@
 # Reactive tooltips for Meteor
 
-Forget about adding clunky Bootstrap packages. The `lookback:tooltips` package provides tooltips "The Meteor Way" – the reactive way! Barebones, minimal and functional.
+> **NOTE**: This is a simple fork of [lookback:tooltips](https://github.com/lookcbak/tooltips), without the coffeescript dependency or the version pinning.
+>
+---
+
+Forget about adding clunky Bootstrap packages. The `cunneen:tooltips` package provides tooltips "The Meteor Way" – the reactive way! Barebones, minimal and functional.
 
 ## Install
 
 ```bash
-meteor add lookback:tooltips
+meteor add cunneen:tooltips
 ```
 
 ## Usage
@@ -242,29 +246,9 @@ Tooltips.hide();
 
 ## Version history
 
-- `0.5.5` - Fixed error where examples templates were compiled into package code
-- `0.5.4` - Minor update to README
-- `0.5.3` - Allow adding custom classes to tooltips via `data-tooltip-classes`
-- `0.5.2` - Make tooltip content update on reactive changes (thanks to using `$.fn.attr()` instead of `$.fn.data()`).
-- `0.5.1` - Fix CSS issue in IE.
-- `0.5.0` - Support for custom events and triggering. Thanks, [@jazzdragon](http://github.com/jazzdragon)!
-- `0.4.0` - Allow inline markup in tooltips.
-- `0.3.2` - Fix not being able to set directions for certain directions.
-- `0.3.1` - Fix bug where a tooltip's position would be off, if it was placed near the window edge and thus would break into multiple lines.
-- `0.3.0` - Add support for disabling tooltips completely, or for certain viewports.
-- `0.2.2`
-  - Export `setPosition` function.
-  - *Experimental:* Allow removal of tooltips when element is removed.
-- `0.2.1` - Fix rounding errors when positioning.
-- `0.2.0` - Expose public API namespace (`Tooltips`).
-- `0.1.2` - Use `mouseover` event instead of `mouseenter`.
-- `0.1.1` - Require Meteor 0.9.3.
-- `0.1.0` - Initial publish.
 
 ## Contributions
 
 Contributions are welcome. Please open issues and/or file Pull Requests.
 
 ***
-
-Made by [Lookback](http://lookback.io).

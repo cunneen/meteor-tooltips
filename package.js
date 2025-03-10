@@ -1,14 +1,24 @@
 Package.describe({
   name: 'lookback:tooltips',
-  summary: 'Reactive tooltips.',
-  version: '0.6.1',
-  git: 'https://github.com/lookback/meteor-tooltips.git'
+  summary: "Reactive tooltips, no coffee required.",
+  version: "1.0.0",
+  git: "https://github.com/cunneen/meteor-tooltips.git",
 });
 
-Package.on_use(function(api) {
-  api.versionsFrom('1.0.4');
-  api.use('coffeescript reactive-var jquery templating tracker'.split(' '), 'client');
-
-  api.add_files('tooltips.html tooltips.coffee'.split(' '), 'client');
-  api.export('Tooltips', 'client');
+Package.onUse(function (api) {
+  api.use(
+    ["ecmascript", "reactive-var", "jquery", "templating", "tracker"],
+    "client"
+  );
+  const distDir = "dist";
+  api.addFiles(
+    [
+      "package-scoped-var-declarations.js",
+      "tooltips.html",
+      "lodashUtils.js",
+      "tooltips.js",
+    ].map((f) => `${distDir}/${f}`),
+    "client"
+  );
+  api.export("Tooltips", "client");
 });
