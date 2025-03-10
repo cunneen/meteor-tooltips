@@ -9,7 +9,7 @@
     "release": "dotenvx run release-it -- -i -u",
     "commitlint": "commitlint --edit",
     "testdotenvx": "dotenvx run -- node test/testdotenvx.js",
-    "test":"echo no tests specified && exit 0",
+    "test": "echo no tests specified && exit 0",
     "prepare": "husky"
   },
   "main": "index.js",

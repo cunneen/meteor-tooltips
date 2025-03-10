@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2025-03-10
+
+### 🚀 Features
+
+- :sparkles: coffeescript is now a build dependency, not a runtime dependency
+
+### 💼 Other
+
+- Merge branch 'feat/republish-as-cunneen-tooltips'
+
+### ⚙️ Miscellaneous Tasks
+
+- :truck: republish as cunneen:tooltips
+
 ## v0.6.1 - 2017-07-13
 
 - Removed example folder altogether
