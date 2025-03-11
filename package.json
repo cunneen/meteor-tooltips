@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "coffee -t --output ./dist/ --map -c ./src/ ",
-    "postbuild": "cp src/tooltips.html dist/ && cp src/package-scoped-var-declarations.js dist/ ",
+    "postbuild": "cp src/tooltips.html dist/",
     "release-changelog": "git-cliff --unreleased --prepend CHANGELOG.md --tag ",
     "release": "dotenvx run release-it -- -i -u",
     "commitlint": "commitlint --edit",
