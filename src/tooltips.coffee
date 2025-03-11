@@ -1,4 +1,5 @@
 import { isUndefined, isString } from "./lodashUtils.js";
+import { Template } from "meteor/templating";
 
 # Defaults
 

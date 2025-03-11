@@ -13,12 +13,10 @@ Package.onUse(function (api) {
   const distDir = "dist";
   api.addFiles(
     [
-      "package-scoped-var-declarations.js",
       "tooltips.html",
       "lodashUtils.js",
-      "tooltips.js",
     ].map((f) => `${distDir}/${f}`),
     "client"
   );
-  api.export("Tooltips", "client");
+  api.mainModule(`${distDir}/tooltips.js`, "client");
 });
