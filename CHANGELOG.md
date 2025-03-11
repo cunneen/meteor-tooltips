@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-03-11
+
+### 🚀 Features
+
+- :wrench: package.js should refer to package.json for metadata
+
+### 🐛 Bug Fixes
+
+- :green_heart: package.json "postbuild" step refers to non-existent files
+
+### 💼 Other
+
+- Merge branch 'feat/remove-coffeescript-dep'
+
+### 🚜 Refactor
+
+- :recycle: ESM export instead of Package-scope
+
 ## [1.0.1] - 2025-03-10
 
 ### 🐛 Bug Fixes
