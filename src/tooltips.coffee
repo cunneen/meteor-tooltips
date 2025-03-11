@@ -180,4 +180,4 @@ Meteor.startup ->
   $(document).on 'tooltips:hide', '[data-tooltip-trigger="manual"]', hideTooltip
   $(document).on 'tooltips:toggle', '[data-tooltip-trigger="manual"]', toggleTooltip
 
-export default Tooltips
+export {Tooltips}
