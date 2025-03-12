@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2025-03-12
+
+### 🐛 Bug Fixes
+
+- :mute: (empty commit) - suppress browser console log message
+
 ## [1.0.4] - 2025-03-12
 
 ### ⚙️ Miscellaneous Tasks
