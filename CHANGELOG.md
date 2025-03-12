@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2025-03-12
+
+### ⚙️ Miscellaneous Tasks
+
+- :green_heart: meteor publish: remove node_modules first
+- :see_no_evil: try to .meteorignore node_modules
+- :pushpin: meteor .versions for v1.0.3
+
 ## [1.0.3] - 2025-03-11
 
 ### 🐛 Bug Fixes

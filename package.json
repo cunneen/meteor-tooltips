@@ -1,7 +1,7 @@
 {
   "name": "meteor-tooltips",
   "description": "Reactive tooltips for Meteor, no coffee required",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "coffee -t --output ./dist/ --map -c ./src/ ",
     "postbuild": "cp src/tooltips.html dist/",
